@@ -1,4 +1,4 @@
-export * from "./components/MultipleImageUploader";
-export * from "./components/SingleImageUploader";
-export * from "./hooks/useFileUpload";
-export * from "./providers/FileUploadProvider";
+export { MultipleImageUploader } from "./components/MultipleImageUploader";
+export { SingleImageUploader } from "./components/SingleImageUploader";
+export { useFileUpload } from "./hooks/useFileUpload";
+export { FileUploadProvider } from "./providers/FileUploadProvider";
